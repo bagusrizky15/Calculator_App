@@ -10,7 +10,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="300dp"
         android:background="@color/ic_background"
         android:gravity="bottom"
         android:orientation="vertical"
@@ -21,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="end"
-            android:text="5+10"
+            android:text=""
             android:textColor="@color/white"
             android:textSize="30sp" />
 
@@ -30,7 +30,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="end"
-            android:text="15"
+            android:text="0"
             android:textColor="@color/white"
             android:textSize="50sp"
             android:textStyle="bold" />
@@ -45,6 +45,7 @@
         <TableRow>
 
             <androidx.appcompat.widget.AppCompatButton
+                android:layout_weight="1"
                 android:id="@+id/btn_clear"
                 style="@style/Button_Style"
                 android:layout_width="wrap_content"
@@ -59,15 +60,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 android:text="⌫">
-
-            </androidx.appcompat.widget.AppCompatButton>
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btn_modulus"
-                style="@style/Button_Style"
-                android:layout_width="wrap_content"
-                android:layout_height="90dp"
-                android:text="%">
 
             </androidx.appcompat.widget.AppCompatButton>
 
